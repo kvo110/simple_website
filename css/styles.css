@@ -110,6 +110,29 @@ body {
   background: #f3f4f6;
 }
 
+/* Quick link buttons (HW1-style) */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 10px 14px;
+  background: #111827;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.btn-link:hover {
+  background: #1f2937;
+}
+
 /* Global images for the rest of the site */
 img {
   width: 100%;
