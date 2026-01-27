@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--
+  about.html
+  CW02 - Simple Personal Portfolio Website
+  Page 2: About
+-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Kenny's Simple Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Site Header + Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <p class="site-kicker">Kenny Vo</p>
+
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html" aria-current="page">About</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Page Title -->
+    <section class="card">
+      <h1>About Me</h1>
+
+      <p class="jump-links">
+        Jump to:
+        <a href="#story">My Story</a> •
+        <a href="#skills">Skills</a> •
+        <a href="#goals">Goals</a> •
+        <a href="#table">Skills Table</a>
+      </p>
+
+      <div class="img-grid two-up">
+        <figure class="img-card">
+          <img src="images/about-campus.svg"
+            alt="Illustration of a campus building and a notebook representing college life" width="480" height="320" />
+          <figcaption>College life</figcaption>
+        </figure>
+
+        <figure class="img-card">
+          <img src="images/about-notes.svg" alt="Illustration of study notes, a pencil, and a checklist for planning"
+            width="480" height="320" />
+          <figcaption>Staying organized</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- My Story -->
+    <section class="card" id="story">
+      <h2>My Story</h2>
+
+      <p>
+        I’m a Computer Science student at Georgia State University. I’m interested in building apps that
+        actually help people, even if the first version is small.
+      </p>
+
+      <p>
+        I like clean structure and good habits. One thing I’m learning is that it’s better to ship something simple
+        and improve it, instead of trying to make it perfect on day one.
+      </p>
+
+      <p>
+        Outside of school, I enjoy fitness and keeping a steady routine. It sounds basic, but staying consistent makes
+        everything easier — classes, projects, and personal goals.
+      </p>
+
+      <p>
+        My main focus right now is strengthening my fundamentals: HTML, CSS basics, programming structure,
+        and writing code that doesn’t turn into a mess later.
+      </p>
+
+      <aside class="aside-box">
+        <h3>Fun Facts</h3>
+        <p>
+          I’m the type of person who likes checklists.<br />
+          If I don’t write it down, I might forget it.
+        </p>
+      </aside>
+    </section>
+
+    <hr />
+
+    <!-- Skills -->
+    <section class="card" id="skills">
+      <h2>Skills & Interests</h2>
+
+      <p>
+        Here are some areas I’ve worked with and enjoy learning more about:
+      </p>
+
+      <ul>
+        <li>HTML and semantic structure</li>
+        <li>CSS basics (layout, spacing, readability)</li>
+        <li>Java programming (projects and coursework)</li>
+        <li>SQL / database fundamentals</li>
+        <li>Building small apps to practice concepts</li>
+      </ul>
+
+      <p>
+        Helpful links I actually use:
+        <a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN</a>,
+        <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a>
+      </p>
+    </section>
+
+    <hr />
+
+    <!-- Goals -->
+    <section class="card" id="goals">
+      <h2>Top Goals for 2026</h2>
+
+      <p>
+        These are my “keep it simple and real” goals. Nothing fancy, just steady progress.
+      </p>
+
+      <ol>
+        <li>Finish more small projects (even if they’re not perfect)</li>
+        <li>Get comfortable with HTML/CSS without constantly looking everything up</li>
+        <li>Improve code organization so future features don’t break everything</li>
+        <li>Practice interviewing basics and explaining projects clearly</li>
+        <li>Build a portfolio that shows consistent improvement over time</li>
+      </ol>
+
+      <blockquote>
+        “Discipline beats motivation when motivation disappears.”
+      </blockquote>
+    </section>
+
+    <hr />
+
+    <!-- Table -->
+    <section class="card" id="table">
+      <h2>Skills Table</h2>
+
+      <table>
+        <caption>My Current Skill Focus</caption>
+        <thead>
+          <tr>
+            <th scope="col">Skill</th>
+            <th scope="col">Proficiency</th>
+            <th scope="col">Where I Use It</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Intermediate</td>
+            <td>Class assignments and practice pages</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>Intermediate</td>
+            <td>Course projects and backend logic practice</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td>Beginner</td>
+            <td>Simple tables, queries, and data thinking</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="small-note">
+        Tip: I run my pages through the W3C validator before I submit. It catches small mistakes fast.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        © 2026 Kenny Vo •
+        <a href="mailto:voghuy17@gmail.com">Contact Me</a> •
+        <a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">W3C Validator</a>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

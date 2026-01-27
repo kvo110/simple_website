@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img"
+  aria-label="Pong project banner">
+  <rect width="1200" height="420" fill="#ede9fe" />
+  <rect x="220" y="110" width="760" height="260" rx="20" fill="#111827" />
+  <rect x="260" y="250" width="160" height="18" fill="#ffffff" />
+  <circle cx="760" cy="210" r="16" fill="#ffffff" />
+  <line x1="600" y1="130" x2="600" y2="350" stroke="#ffffff" stroke-width="6"
+    stroke-dasharray="10 14" />
+  <text x="40" y="90" font-family="Arial" font-size="44" fill="#111827">GBA Pong</text>
+</svg>

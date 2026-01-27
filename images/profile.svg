@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img"
+  aria-label="Profile illustration">
+  <rect width="900" height="600" fill="#eef2ff" />
+  <circle cx="450" cy="250" r="140" fill="#c7d2fe" />
+  <circle cx="450" cy="230" r="70" fill="#111827" />
+  <path d="M300 470c40-90 260-90 300 0" fill="#111827" />
+  <text x="40" y="70" font-family="Arial" font-size="36" fill="#111827">Profile</text>
+</svg>

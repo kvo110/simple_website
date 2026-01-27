@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img"
+  aria-label="Laptop and code illustration">
+  <rect width="900" height="600" fill="#ecfeff" />
+  <rect x="170" y="160" width="560" height="320" rx="18" fill="#111827" />
+  <rect x="200" y="190" width="500" height="240" rx="12" fill="#0ea5e9" opacity="0.25" />
+  <rect x="250" y="500" width="400" height="30" rx="10" fill="#111827" />
+  <text x="240" y="270" font-family="Arial" font-size="54" fill="#111827">&lt; / &gt;</text>
+  <text x="40" y="70" font-family="Arial" font-size="36" fill="#111827">Coding</text>
+</svg>
