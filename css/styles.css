@@ -295,6 +295,50 @@ img {
   width: 100%;
 }
 
+/* Tables (skills table) */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  table-layout: fixed;
+}
+
+caption {
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  padding: 14px 18px;
+  text-align: left;
+  border: 1px solid #d1d5db;
+  vertical-align: top;
+}
+
+th {
+  background: #eef2f7;
+  font-weight: 700;
+}
+
+/* Optional: makes 3-column tables look balanced */
+table th:nth-child(1),
+table td:nth-child(1) {
+  width: 30%;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 35%;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 35%;
+}
+
 .site-footer {
   padding: 18px 0;
   background: var(--dark-1);
