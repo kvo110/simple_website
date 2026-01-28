@@ -21,8 +21,9 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background: linear-gradient(180deg,
-      #f1f5f9 0%,
-      #e5e7eb 100%);
+      #f8fafc 0%,
+      #e5e7eb 50%,
+      #dbeafe 100%);
   color: #1f2937;
 }
 
@@ -210,10 +211,14 @@ body {
 
 .card {
   background: #f8fafc;
-  border-radius: 14px;
+  border-radius: 16px;
   padding: 18px;
-  margin: 18px 0;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  margin: 22px 0;
+  position: relative;
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.06),
+    0 0 0 1px rgba(255, 255, 255, 0.6),
+    0 0 30px rgba(96, 165, 250, 0.12);
 }
 
 .aside-box {
