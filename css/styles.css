@@ -28,9 +28,13 @@ body {
 }
 
 .site-header {
-  background: var(--dark-1);
+  background: rgba(17, 24, 39, 0.92);
   color: #ffffff;
   padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
 }
 
 .nav-list {
@@ -40,6 +44,7 @@ body {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav-link {
