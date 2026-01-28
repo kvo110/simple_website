@@ -20,7 +20,9 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: #f1f5f9;
+  background: linear-gradient(180deg,
+      #f1f5f9 0%,
+      #e5e7eb 100%);
   color: #1f2937;
 }
 
