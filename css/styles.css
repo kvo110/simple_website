@@ -62,9 +62,7 @@ body {
   max-width: 700px;
 }
 
-/* Hero headshot
-   Important: overrides the global img rule below so it stays a circle at the right size.
-*/
+/* Hero headshot */
 .hero-headshot {
   width: 220px;
   height: 220px;
@@ -110,7 +108,7 @@ body {
   background: #f3f4f6;
 }
 
-/* Quick link buttons (HW1-style) */
+/* Quick link buttons */
 .quick-links {
   display: flex;
   flex-wrap: wrap;
@@ -133,7 +131,7 @@ body {
   background: #1f2937;
 }
 
-/* Global images for the rest of the site */
+/* Global images */
 img {
   width: 100%;
   height: auto;
@@ -142,17 +140,26 @@ img {
   border: 3px solid #e5e7eb;
 }
 
-/* Landscape photo helper */
-.landscape-img {
-  object-fit: cover;
-  max-height: 360px;
+/* Multiple audio players */
+.audio-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 12px;
 }
 
-.video-wrap {
-  margin-top: 12px;
+.audio-item {
+  padding: 14px;
   border-radius: 12px;
-  overflow: hidden;
   border: 3px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.audio-item h3 {
+  margin: 0 0 10px 0;
+}
+
+.audio-item audio {
+  width: 100%;
 }
 
 .site-footer {
