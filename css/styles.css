@@ -63,6 +63,42 @@ body {
   background: rgba(255, 255, 255, 0.16);
 }
 
+/* About me page jump navigation */
+
+.jump-nav {
+  margin: 16px 0 20px 0;
+}
+
+.jump-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.jump-nav-link {
+  display: block;
+  padding: 12px 18px;
+  background: #f8fafc;
+  color: #1f2937;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 2px solid #e5e7eb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.jump-nav-link:hover {
+  background: #eef2f7;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
+}
+
 /* Full page hero cover */
 .hero-cover {
   min-height: 100vh;
