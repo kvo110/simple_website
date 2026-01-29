@@ -71,7 +71,10 @@ body {
 }
 
 /* Anchor offset for sticky header */
-#story, #skills, #goals, #table {
+#story,
+#skills,
+#goals,
+#table {
   scroll-margin-top: 140px;
 }
 
@@ -242,7 +245,6 @@ html {
 .quick-links {
   display: flex;
   flex-direction: column;
-  /* stack vertically */
   gap: 10px;
   margin-top: 10px;
 }
@@ -304,6 +306,12 @@ table {
   table-layout: fixed;
 }
 
+/* Lets the table stretch closer to the card edges (looks less cramped) */
+.card table {
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
 caption {
   text-align: left;
   font-weight: 700;
@@ -312,7 +320,7 @@ caption {
 
 th,
 td {
-  padding: 14px 18px;
+  padding: 16px 22px;
   text-align: left;
   border: 1px solid #d1d5db;
   vertical-align: top;
@@ -337,6 +345,27 @@ table td:nth-child(2) {
 table th:nth-child(3),
 table td:nth-child(3) {
   width: 35%;
+}
+
+/* Subtle row striping helps scanning */
+tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+/* Quote card styling */
+
+.quote-card {
+  text-align: center;
+  padding: 28px 22px;
+}
+
+.quote-text {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: #1f2937;
+  margin: 0;
 }
 
 .site-footer {
